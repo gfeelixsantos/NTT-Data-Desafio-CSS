@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Raleway&display=swap');
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: 0;
+    text-align: center;
+    font-family: 'Raleway', cursive; 
+}
+
+a {
+    color: #31A8DD;
+}
+
+a:hover {
+    color: white;
+}
+
+.banner {
+    background-image: url(./assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    /* QUERO ME INSCREVER */
+
+    margin: 50px;
+    width: 300px;
+    height: 80px;
+    font-family: 'Raleway';
+    font-style: bolder;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.21em;
+    color: #31A8DD;
+    border: 3px solid #31A8DD;
+    background-color: black;  
+}
+
+button:hover {
+    background-color: #31A8DD;
+    color: white;
+    width: 320px;
+    height: 100px;
+}
+
+
+#course-content {
+    /* O QUE VOU APRENDER? */
+    background-color: black;
+    height: 600px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 80px;
+    /* identical to box height */
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+}
+
+#course-content p {
+    
+    width: auto;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+}
+
+
+div span {
+    font-size: 14px;
+    color: white;
+}
+
+footer {
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    background-color: black;
+    border-top: 1px solid #33A8DB;
+    padding-top: 50px;
+}
+
+
+
+h1 {
+    /* TRILHA DE CSS DA DIO */
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+.module { 
+    background: #252525;
+    border: 1px solid #33A8DB;
+    margin-top: 50px;
+    width: 740px;
+    font-size: 16px;
+    font-weight: bold;
+    /* Shadow Effect */
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+}
+
+.module:hover {
+    font-size: 19px;
+    background: black
+}
+
+
+p {
+    /* A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvoler sites profissionais */
+    width: 700px;
+    height: 46px;
+    font-weight: bolder;
+    font-family: 'Raleway';   
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+#professional-challenges {
+    background-color: black;   
+}
+
+
+#professional-challenges h2 {
+    background-color: black;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 35px;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+}
+
+section p {
+    margin: auto;
+    height: 150px;
+    width: 1000px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+
+#transform-world p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    text-align: left;
+    height: 400px;
+    width: 600px;
+    line-height: 90px;
+    margin-left: 20px;
+    padding: 70px 0 0 20px;
+    color: black;
+    text-decoration: solid 2px  #33A8DB;
+    margin: 0 0 0 0;
+    text-shadow:  #33A8DB 3px 3px;
+}
+
+
+span {
+    width: 350px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #33A8DB;
+}
+
+#transform-world {
+    background-image: url(./assets/images/woman-code.png);
+    background-size: 100%;
+    background-position-y: center;
+    height: 500px;
+    background-attachment: fixed; 
+}
